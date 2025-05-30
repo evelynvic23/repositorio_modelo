@@ -38,10 +38,13 @@ organização em pastas. Em comum todas elas tem essa estrutura:
 
 - Um projeto pode ter dessas branchs abaixo:
 - main (ou master): Versão estável do projeto (Ou aquilo que o público está utilizando no moomento).
+- normalmente a main é atualizada no final de cada sprint, recebe tudo o que foi realizada na homolog (Foi testado e aprovado)
 - homolog: Versão posterior a de desenvolvimento, ou seja, é a de testes. Anterior a main. Normalmente antecipa a main
+- normalmente é atualizada ao final de cada sprint, recebendo todas as modeficações criadas na develop
 - develop: 
   - Versão em desenvolvimento, normalmente é utilizado por desenvolvedores do projeto. 
   - Centralizadora das modificações realizadas pelos devs.
+  - normalmente a develop é considerada mais atualizada comparada a main e homolog
 
 - Branchs relacionadas ao card do kanban (branch de trabalho)
   - [sufixo-atomic]/[nome-card]
@@ -49,11 +52,13 @@ organização em pastas. Em comum todas elas tem essa estrutura:
   - cada dev pega um ou N cards do kanban
   - cada branch é baseada da develop
   - no final ela é mesclada a develop
+  
 
 
 - Flow das branchs: 
-  - branch de trabalho -> develop -> homolog -> mai
-n
+  - branch de trabalho -> develop -> homolog -> main
+
+
 
  
 
