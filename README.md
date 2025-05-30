@@ -25,5 +25,7 @@ organização em pastas. Em comum todas elas tem essa estrutura:
 
   - Commit Atômico: Realizar commits pequenos -> a unidade de trabalho.
   - Commit Semântico: É informar com sufixo e em poucas palavras o que foi realizado nessa unidade de trabalho.
+
+  ## Na raíz do projeto
  
 
