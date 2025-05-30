@@ -27,5 +27,33 @@ organização em pastas. Em comum todas elas tem essa estrutura:
   - Commit Semântico: É informar com sufixo e em poucas palavras o que foi realizado nessa unidade de trabalho.
 
   ## Na raíz do projeto
+
+- É necessário ter 
+- o gitignore: é utilizado para informar ao git quais extensões ou pastas que precisam ser ignoradas 
+- license: é informado qual é a licença do projeto (obrigatório quando o projeto é público)
+- contribuiting: é informado quem são os atores e quem pode contribuir
+- changelog: é utilizado para informar o histórico de versões do projeto.
+
+## Gerenciar Branchs
+
+- Um projeto pode ter dessas branchs abaixo:
+- main (ou master): Versão estável do projeto (Ou aquilo que o público está utilizando no moomento).
+- homolog: Versão posterior a de desenvolvimento, ou seja, é a de testes. Anterior a main. Normalmente antecipa a main
+- develop: 
+  - Versão em desenvolvimento, normalmente é utilizado por desenvolvedores do projeto. 
+  - Centralizadora das modificações realizadas pelos devs.
+
+- Branchs relacionadas ao card do kanban (branch de trabalho)
+  - [sufixo-atomic]/[nome-card]
+  - cada card do kanban vai ter uma branch
+  - cada dev pega um ou N cards do kanban
+  - cada branch é baseada da develop
+  - no final ela é mesclada a develop
+
+
+- Flow das branchs: 
+  - branch de trabalho -> develop -> homolog -> mai
+n
+
  
 
