@@ -56,7 +56,7 @@ organização em pastas. Em comum todas elas tem essa estrutura:
 
 
 - Flow das branchs: 
-  - branch de trabalho -> develop -> homolog -> main
+  - branch de trabalho -> develop -> homolog -> main.
 
 
 
